@@ -5,6 +5,8 @@ GitHubRepoSearch is an iOS demo project that leverage GitHub API to search GitHu
 
 In this project you will learn how to use **Combine**, **SwiftUI** and other iOS development skills.
 
+![](.assets/demo.gif)
+
 ## Requirements
 * iOS 14.0+
 * Swift 5.0+
@@ -22,7 +24,7 @@ ContentView()
 * Incremental Search (FAYT).
 * API request throttling.
 * No 3rd party dependencies.
-* Dependency injection in API layer for unit test. 
+* Dependency injection in API layer for unit test.
 
 ## Project Architecture
 * **View:** `ContentView`, `RepoView` contains search text field and result list. Bind UI elements with `GitHubSearch`.
